@@ -3,42 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style Sheets -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="LP.css" />
+    <link rel="stylesheet" href="aboutUs.css" />
+    <link rel="stylesheet" href="services.css" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="team.css" />
+    <link rel="stylesheet" href="bookingAndFooter.css" />
     <link
       rel="icon"
       href="assets/ChatGPT Image Apr 14, 2025 at 08_08_53 AM.png"
       type="image/png"
     />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Title -->
     <title>Hair Day Salon</title>
   </head>
   <body>
     <header>
-      <img src="/assets/Artboard 1.png" alt="Hair Day logo" />
       <nav>
-        <a href="#our-story">Our Story</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#services">Prices</a>
-        <a href="#team">Contact</a>
-        <a href="#booking">Booking</a>
+        <div class="nav-logo">
+        <img id="nav-logo" src="/assets/Artboard 1.png" alt="Hair Day logo" />
+        </div>
+        <div class="nav-links">
+        <a class="nav-link" href="#our-story">Our Story</a>
+        <a  class="nav-link" href="#gallery">Gallery</a>
+        <a class="nav-link" href="#services">Prices</a>
+        <a class="nav-link"href="#team">Contact</a>
+        <a class="nav-link"href="#booking">Booking</a>
+        </div>
       </nav>
     </header>
     <main>
       <!-------- Landing Page -------->
       <section id="landing-page">
+        <div id="LP-left-blank"></div>
         <div class="landing-page-content">
-          <img src="/assets/Artboard 22.png" alt="Hair Day Orange Title" />
+          
+          <h1 id="LP-title">HAIR DAY</h1>
+          <div id="LP-copy">
           <p>
             Own Your Style.<br />
             Unleash Your Beauty.<br />
             No Apologies.
           </p>
-          <a href="#booking" class="button">Book Now</a>
+         </div> <a href="#booking" class="button">Book Now</a>
         </div>
       </section>
       <!-------- About Us -------->
       <section id="our-story">
-        <div id="about-us-content-card1-container">
-          <img
+        <div id="about-us-content-card1-container" class="about-us-content-card">
+          <img class="our-story-image"
             src="/assets/aboutUs1.jpg"
             alt="Fahionable women with a  short pink modern hair, wearing sunglasses and touching her face."
           />
@@ -55,7 +75,7 @@
             <a href="#booking" class="button">Book Now</a>
           </div>
         </div>
-        <div id="about-us-content-card2-container">
+        <div id="about-us-content-card2-container" class="about-us-content-card">
           <div class="about-us-content-card-copy">
             <h2>Our Story</h2>
             <p>
@@ -68,13 +88,13 @@
             </p>
             <a href="#booking" class="button">Book Now</a>
           </div>
-          <img
+          <img class="our-story-image"
             src="/assets/aboutUs2.jpg"
             alt="Women with light flowing hair."
           />
         </div>
-        <div id="about-us-content-card3-container">
-          <img
+        <div id="about-us-content-card3-container" class="about-us-content-card">
+          <img class="our-story-image"
             src="/assets/aboutUs3.jpg"
             alt="Curly haired fashionable women blowing a kiss."
           />

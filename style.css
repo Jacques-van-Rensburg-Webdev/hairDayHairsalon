@@ -1,0 +1,104 @@
+:root {
+  /* Colours */
+  --primary-color: #d0604c;
+  --secondary-color: #fba23c;
+  --accent-color: #4a797a;
+  --background-color: linear-gradient(
+    270deg,
+    #f7efe4 15.97%,
+    #eedecd 60%,
+    #e7d8c4 70.04%,
+    #f0e3d3 76.74%
+  );
+  --text-color: #2e2e2c;
+  --btn-text-color: #f0e3d3;
+
+  /* Fonts Families */
+  --copy-font-family: "Urbanist", sans-serif;
+  --heading-font-family: "Roboto", sans-serif;
+
+  /* Font Weights */
+  --copy-primary-font-weight: 400;
+  --copy-bold-font-weight: 700;
+  --heading-primary-font-weight: 700;
+  --heading-secondary-font-weight: 400;
+
+  /* Font Sizes */
+
+  --title-font-size: clamp(3rem, 8vw, 15rem);
+  --h1-font-size: clamp(2.5rem, 6vw, 12rem);
+  --h2-font-size: clamp(2rem, 4vw, 8rem);
+  --h3-font-size: clamp(1.5rem, 3vw, 5rem);
+  --h4-font-size: clamp(1rem, 2vw, 3rem);
+  --h5-font-size: clamp(0.75rem, 1.5vw, 2rem);
+  --h6-font-size: clamp(0.5rem, 1vw, 1.5rem);
+  --p-font-size: clamp(1rem, 3vw, 2rem);
+  --btn-font-size: clamp(0.75rem, 1.25vw, 1.5rem);
+  --input-font-size: clamp(1rem, 3vw, 1.5rem);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: var(--copy-font-family);
+  background: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: var(--h4-font-size);
+}
+
+#LP-title {
+  font-family: var(--heading-font-family);
+  font-size: var(--title-font-size);
+  font-weight: var(--heading-secondary-font-weight);
+  color: var(--primary-color);
+  /* line-height: 1.5; */
+  letter-spacing: 0.3em;
+}
+
+#LP-copy {
+  font-family: var(--copy-font-family);
+  font-size: var(--h3-font-size);
+  font-weight: var(--copy-primary-font-weight);
+  color: var(--primary-color);
+  line-height: 1.5;
+  letter-spacing: 0.25em;
+}
+
+.button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--btn-text-color);
+  font-family: var(--copy-font-family);
+  font-size: var(--btn-font-size);
+  font-weight: var(--copy-primary-font-weight);
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
