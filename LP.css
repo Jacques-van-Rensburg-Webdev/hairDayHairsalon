@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url("/assets/lp-bg.png");
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@
 
 #LP-left-blank {
   width: 35%;
-  height: 100vh;
+  height: 100$;
 }
 
 .landing-page-content {
@@ -21,8 +21,8 @@
   flex-direction: column;
   justify-content: center;
   width: 65%;
-  max-width: 2000px;
-  height: 100vh;
+  max-width: 1500px;
+  height: 100%;
   margin-top: 13%;
 }
 
