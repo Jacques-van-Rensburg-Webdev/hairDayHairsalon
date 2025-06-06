@@ -1,0 +1,123 @@
+#gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Gallery Container */
+.gallery-container {
+  width: 90%;
+  height: 80%;
+}
+.gallery-main-image-container {
+  width: 100%;
+  height: 100%;
+}
+/* Gallery Item */
+.gallery-image-container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 90%;
+  grid-gap: 10px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.gallery-thumbnails-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) #f0e3d3;
+  border-radius: 8px;
+}
+
+#thumbnails-border-gallery-container {
+  padding: 10px;
+  width: 100%;
+  height: 90%;
+  border-radius: 8px;
+  border: 2px solid #fba23c;
+}
+
+.gallery-thumbnails-container::-webkit-scrollbar {
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.gallery-thumbnails-container::-webkit-scrollbar-thumb {
+  background: #fba23c;
+  height: 3px;
+}
+
+.gallery-thumbnails-container::-webkit-scrollbar-track {
+  background: #f0e3d3;
+  border-radius: 8px;
+}
+
+.gallery-image-1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.gallery-thumbnails-container .gallery-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: #f0e3d3 2px solid;
+  border-radius: 8px;
+}
+
+.gallery-image {
+  width: 33%;
+  height: 33%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+#gallery-button {
+  justify-self: flex-end;
+  align-self: baseline;
+}
+
+#gallery-image-2 {
+}
+#gallery-image-3 {
+}
+#gallery-image-4 {
+}
+#gallery-image-5 {
+}
+#gallery-image-6 {
+}
+#gallery-image-7 {
+}
+#gallery-image-8 {
+}
+#gallery-image-9 {
+}
+#gallery-image-10 {
+}
+#gallery-image-11 {
+}
+#gallery-image-12 {
+}
+#gallery-image-13 {
+}

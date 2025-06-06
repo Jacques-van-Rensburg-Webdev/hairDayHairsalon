@@ -36,10 +36,8 @@
   margin-bottom: 5%;
 }
 
-.button {
-  width: clamp(100px, 9vw, 178px);
-  height: clamp(40px, 3.5vw, 64px);
+#LP-button {
   cursor: pointer;
   align-self: self-end;
-  margin-right: 21%;
+  margin-right: 8%;
 }
